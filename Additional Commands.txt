@@ -1,0 +1,15 @@
+# Craete a virtual env with conda in python 2.7
+conda create -n myenv python=2.7
+
+# Conda activate virtual env 
+conda activate myenv
+
+# Install all the dependency requirements
+pip install -r requirements.txt
+
+# Download and unzip folder containing pretrained models and place in this directory
+Link to Download - https://drive.google.com/file/d/0B-HNE76mR97FVkpJZnZuTEhBaFU/view?resourcekey=0-jOyX1iLpam9C2wsT7Z1-0w
+
+# Run the Notebooks using the myenv python kernal
+Select the correct Kernal and run the code
+
